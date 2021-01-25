@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.flyaudioqrcode.custom.GrayQrCodeView
+        android:layout_width="250dp"
+        android:layout_height="250dp"/>
+    
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:textColor="@color/colorWhite"
+        android:gravity="center"
+        android:layout_marginTop="26.67dp"
+        android:textSize="18sp"
+        android:text="扫描成功\n请在APP中点击确定"
+        tools:ignore="SmallSp" />
+
+</LinearLayout>

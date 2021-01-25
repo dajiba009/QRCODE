@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FlyAudioQRCode</string>
+    <string name="Loading_txt">二维码加载中...</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/loginIconIV"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@mipmap/login_icon"/>
+
+    <TextView
+        android:id="@+id/loginNameTv"
+        android:layout_marginTop="24dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:text="树精Dela"
+        android:textColor="@color/colorWhite"
+        android:layout_width="116dp"
+        android:layout_height="34dp"/>
+
+    
+    <TextView
+        android:id="@+id/logoutTv"
+        android:layout_marginTop="73dp"
+        android:gravity="center"
+        android:text="退出登录"
+        android:background="@drawable/select_login_button"
+        android:textColor="@color/colorWhite"
+        android:layout_width="200dp"
+        android:layout_height="74dp"/>
+
+</LinearLayout>

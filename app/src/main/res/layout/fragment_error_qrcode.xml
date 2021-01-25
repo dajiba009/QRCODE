@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/error_fragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@mipmap/error"/>
+
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:layout_marginTop="35.67dp"
+        android:textSize="18sp"
+        android:text="二维码获取失败,\n请点击屏屏幕重新获取"
+        android:layout_width="200dp"
+        android:layout_height="56dp"/>
+
+</LinearLayout>
